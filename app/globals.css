@@ -2,32 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background-color:aliceblue;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.cust-class1{
+  background-image: url('../public/assets/11.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cust-class2{
+  background-image: url('../public/assets/12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cust-class3{
+  background-image: url('../public/assets/13.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cust-class4{
+  background-image: url('../public/assets/14.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cust-class5{
+  background-image: url('../public/assets/15.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
