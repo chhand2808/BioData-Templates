@@ -6,7 +6,7 @@ export default function () {
   return (
     <div className='cust-class5 w-full'>
         <div className="header text-center justify-center align-middle items-center mt-16 text-[#F4E5B1]">
-        <h1>BIODATA</h1>
+        <h1 className="font-extrabold">BIODATA</h1>
         <Image
         src={avatar}
         width={100}

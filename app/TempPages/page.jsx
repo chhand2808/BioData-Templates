@@ -21,8 +21,8 @@ export default function () {
       setCurrentPage(page);
     };
   return (
-    <div className="flex flex-row justify-center align-middle items-center">
-        <div className='md:flex flex-col md:px-10 py-2 hidden md:w-[25%] h-full justify-center align-middle items-center'>
+    <div className="flex flex-row xl:flex-col-reverse justify-center align-middle items-center">
+        <div className='md:flex flex-col xl:flex-row md:px-10 py-2 hidden md:w-[25%] xl:w-[100%] h-full justify-center align-middle items-center'>
             <div className='flex w-14 h-20 my-5 mx-2 md:m-5 hover:shadow-xl shadow-slate-800' 
             onClick={() => handleImageClick('page1')}>
                 <Image
@@ -54,7 +54,7 @@ export default function () {
                 />
             </div>
         </div>
-        <div className='flex mt-20 md:mt-0 w-[90%] md:w-[75%] h-full md:p-12 justify-center border border-y-0 border-l-2 border-slate-900/20'>
+        <div className='flex mt-20 md:mt-0 w-[90%] md:w-[75%] h-full md:p-12 justify-center border border-y-0 border-l-2 xl:border-0 border-slate-900/20'>
             <div className='flex flex-col gap-y-5 md:w-[45%] h-[80vh] md:h-[520px]'>
             {currentPage === 'page1' && <Page1 />}
             {currentPage === 'page2' && <Page2 />}
