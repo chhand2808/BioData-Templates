@@ -95,7 +95,7 @@ export default function () {
                 src={avatar}
                 width={100}
                 height={100}
-                className='rounded-full mr-20'
+                className='max-w-[100px] max-h-[100px] rounded-full mr-20'
                 />
             </div>
         </div>

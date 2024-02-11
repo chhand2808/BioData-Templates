@@ -42,7 +42,7 @@ export default function () {
     };
   return (
     <div className="flex flex-row xl:flex-col-reverse justify-center">
-        <div className='md:flex flex-col xl:flex-row md:px-10 py-2 hidden md:w-[25%] xl:w-[100%] h-full justify-center align-middle items-center'>
+        <div className='md:flex flex-col xl:flex-row md:px-10 hidden md:w-[25%] xl:w-[100%] h-full justify-center align-middle items-center'>
             <div className="overflow-y-auto">
             <div className='flex w-14 h-20 my-5 mx-2 md:m-5 hover:shadow-xl shadow-slate-800' 
             onClick={() => handleImageClick('page1')}>

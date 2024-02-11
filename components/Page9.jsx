@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import avatar from '@/public/assets/avatar1.png'
+import p2 from '@/public/assets/2.png'
 
 export default function () {
   return (
@@ -8,10 +9,10 @@ export default function () {
         <div className="header text-center justify-center align-middle items-center mt-16 text-[#242D32]">
         <h1 className="font-extrabold">BIODATA</h1>
         <Image
-        src={avatar}
+        src={p2}
         width={100}
         height={100}
-        className='rounded-full mx-auto mt-3'
+        className= 'max-w-[100px] max-h-[100px] rounded-full mx-auto mt-3'
         />
       </div>
 
