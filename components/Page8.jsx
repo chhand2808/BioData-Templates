@@ -4,8 +4,8 @@ import avatar from '@/public/assets/avatar1.png'
 
 export default function () {
   return (
-    <div className='cust-class1 w-full'>
-        <div className="header text-center justify-center align-middle items-center mt-16 text-[#F5B57A]">
+    <div className='cust-class8 w-full'>
+        <div className="header text-center justify-center align-middle items-center mt-16 text-[#323131]">
         <h1 className="font-extrabold">BIODATA</h1>
         <Image
         src={avatar}
@@ -16,7 +16,7 @@ export default function () {
       </div>
 
       <form action="#" method="post" className="info-form max-w-full my-5 px-8">
-        <div className='flex flex-col w-full text-[#F5B57A] text-[10px]'>
+        <div className='flex flex-col w-full text-[#323131] text-[10px]'>
             <div className='flex flex-row w-full'>
                 <div className='flex flex-col w-[50%]'>
                     <h1 className='mb-2'>Personal Details</h1>
@@ -26,7 +26,7 @@ export default function () {
                     </div>
                     <div className="flex flex-row">
                         <label for="name">Date of birth:</label>
-                        <input className='w-[40%] bg-transparent ml-2 text-[#F5B57A]' type="text" id="dob" name="dob" required/>
+                        <input className='w-[40%] bg-transparent ml-2 text-[#323131]' type="text" id="dob" name="dob" required/>
                     </div>
                     <div className="flex flex-row">
                         <label for="name">Place of birth:</label>
